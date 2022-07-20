@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+   >
+
+    <TextView
+        android:id="@+id/text_files"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ملفات تهمك"
+        android:layout_alignParentTop="true"
+        android:padding="15dp"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:elevation="5dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_below="@+id/text_files">
+
+
+    <TextView
+        android:id="@+id/pdf1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اللائحة التنفيذية لجباية الزكاة"
+         android:background="@drawable/background"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/pdf2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اللائحة التنفيذية لنظام ضريبة الدخل"
+        android:layout_below="@+id/pdf1"
+        android:background="@drawable/background"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/pdf3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اللائحة التنفيذية لنظام ضريبة القيمة المضافة"
+        android:layout_below="@+id/pdf2"
+        android:background="@drawable/background"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/pdf4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اللائحة التنفيذية لضريبة السلع الانتقائية"
+        android:layout_below="@+id/pdf3"
+        android:background="@drawable/background"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/pdf5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اللائحة التنفيذية لضريبة التصرفات العقارية"
+        android:layout_below="@+id/pdf4"
+        android:background="@drawable/background"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+     >
+
+    <TextView
+        android:id="@+id/text_services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="خدماتنا"
+        android:padding="15dp"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:elevation="5dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text_services"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="-3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/service1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/service_card"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:elevation="2dp"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:text="خدمات تدقيق الحسابات"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/service_layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="تسجيل الحسابات"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="مراجعة الحسابات"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="تأسيس النظم المالية والمحاسبية والدورات المستندية لكافة الأنشطة"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/service2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/service_card"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:elevation="2dp"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+
+                android:text="خدمات الزكاة"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <LinearLayout
+                android:id="@+id/service_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="تسجيل المنشأة بموقع الهيئة العامة للزكاة والدخل"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="تقديم إقرار الزكاة"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="طلب شهادة الزكاة"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="الرد على استفسارات الهيئة العامة للزكاة والدخل"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="تقديم الاعتراضات بموقع الهيئة العامة للزكاة والدخل"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="تقديم الاعتراضات بموقع الأمانة العامة للجان الضريبية"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/service3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/service_card"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:elevation="2dp"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:text="خدمات الضريبة"
+
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/service_layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="تسجيل المنشاة بضريبة القيمة المضافة"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="استخراج شهادة التسجيل في ضريبة القيمة المضافة"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="تقديم الإقرارات الضريبية"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="الرد على استفسارات الهيئة العامة للزكاة والدخل"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="تقديم الاعتراضات بموقع الهيئة العامة للزكاة والدخل"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="تقديم الاعتراضات بموقع الأمانة العامة للجان الضريبية"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/service4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/service_card"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:elevation="2dp"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:text="خدمات إعداد التقارير"
+
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/service_layout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="إعداد تقارير الاختلاس والنزاعات المالية"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="إعداد التقارير ذات الغرض الخاص"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/service5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/service_card"
+                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:elevation="2dp"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:text="خدمات اعتماد القوائم المالية "
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/service_layout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="اعتماد القوائم المالية من مكتب محاسب قانوني معتمد"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/background"
+                    android:drawableStart="@drawable/ic_baseline_fiber_manual_record_24"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:padding="12dp"
+                    android:text="رفع القوائم المالية على موقع وزارة التجارة"
+                    android:textColor="@android:color/secondary_text_light"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

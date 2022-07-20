@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مستشاري المالي</string>
+    <string name="title_services">خدماتنا</string>
+
+    <string name="hyperlink1">الهيئة العامة للزكاة والدخل</string>
+    <string name="hyperlink2">الأمانة العامة للجان الضريبية</string>
+    <string name="hyperlink3">المؤسسة العامة للتأمينات الاجتماعية</string>
+    <string name="hyperlink4">وزارة الموارد البشرية والتنمية الاجتماعية</string>
+
+</resources>

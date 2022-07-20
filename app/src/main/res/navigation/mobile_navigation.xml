@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.nour.macca.ui.HomeFragment"
+        android:label="الرئيسية"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_request_service"
+            app:destination="@id/navigation_request_service" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_services2"
+            app:destination="@id/navigation_services" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_services3"
+            app:destination="@id/navigation_services" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_services"
+        android:name="com.nour.macca.ui.ServicesFragment"
+        android:label="خدماتنا"
+        tools:layout="@layout/fragment_services" >
+        <action
+            android:id="@+id/action_navigation_services_to_navigation_request_service"
+            app:destination="@id/navigation_request_service" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_request_service"
+        android:name="com.nour.macca.ui.RequestServiceFragment"
+        android:label="اطلب خدمتك"
+        tools:layout="@layout/fragment_request_service" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_webs"
+        android:name="com.nour.macca.ui.WebsFragment"
+        android:label="مواقع تهمك"
+        tools:layout="@layout/fragment_request_service" >
+        <action
+            android:id="@+id/action_navigation_webs_to_navigation_files"
+            app:destination="@id/navigation_files" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_files"
+        android:name="com.nour.macca.ui.FilesFragment"
+        android:label="ملفات تهمك"
+        tools:layout="@layout/fragment_files" >
+        <action
+            android:id="@+id/action_navigation_files_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+</navigation>
